@@ -41,8 +41,3 @@ Estadísticas:
 GET http://localhost:8080/stats
 ```
 
-## Notas
-- La detección es insensible a mayúsculas/minúsculas.
-- Manuscritos iguales (mismas líneas en el mismo orden) se registran solo una vez.
-- Para producción y alta carga habría que usar una base de datos externa, cache distribuido y despliegue escalado (Kubernetes, autoscaling, etc.). Esto es una implementación funcional de ejemplo.
-
